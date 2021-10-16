@@ -1,0 +1,51 @@
+/*general*/
+body {
+    background: #DED6D3;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #591E0F;
+}
+
+a:hover {
+    color: #E16B4E;
+    cursor: pointer;
+}
+
+p {
+    text-align: justify;
+}
+
+.button {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*index*/
+
+.main {
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.nav li{
+    font-size: 30px;
+}
+
+/*history*/
+.box, .box img {
+    width: 600px;
+    margin: 5px;
+}
+
+/*discography*/
+
