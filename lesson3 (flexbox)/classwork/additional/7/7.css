@@ -1,0 +1,56 @@
+.wrapper, .container, .main, .content, .related {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.wrapper {
+    height: 900px;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cadetblue;
+    min-width: 200px;
+}
+
+.main, .content {
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 3;
+}
+
+.content {
+    flex-grow: 4;
+}
+
+.images {
+    flex-grow: 8;
+}
+
+.posts {
+    flex-grow: 2;
+}
+
+/*blocks size*/
+.hero{
+    height: 100px;
+}
+
+.sidebar{
+    height: 300px;
+}
+
+.main-content{
+    height: 250px;
+}
+
+.extra-content{
+    height: 150px;
+}

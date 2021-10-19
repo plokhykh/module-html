@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    row-gap: 5px;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e55a77;
+    min-height: 190px;
+    min-width: 190px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+}
