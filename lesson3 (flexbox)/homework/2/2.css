@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darksalmon;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.main {
+    flex-grow: 10;
+    background: bisque;
+    height: 300px;
+}
+
+.aside {
+    flex-grow: 3;
+    background: burlywood;
+    height: 300px;
+}

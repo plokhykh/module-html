@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: steelblue;
+    height: 200px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+}
+
