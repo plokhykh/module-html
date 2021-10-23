@@ -1,0 +1,31 @@
+.d-flex {
+    display: flex;
+}
+
+.wrapper {
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.block {
+    align-items: center;
+    justify-content: center;
+    background: darksalmon;
+    height: 100px;
+}
+
+.container {
+    column-gap: 5px;
+}
+
+.main {
+    flex-grow: 10;
+    background: bisque;
+    height: 300px;
+}
+
+.aside {
+    flex-grow: 3;
+    background: burlywood;
+    height: 300px;
+}

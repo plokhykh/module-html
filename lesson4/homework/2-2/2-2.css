@@ -1,0 +1,21 @@
+.d-flex{
+    display: flex;
+}
+
+.wrapper {
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.block {
+    align-items: center;
+    justify-content: center;
+    background: steelblue;
+    height: 200px;
+}
+
+.box {
+    justify-content: space-between;
+    column-gap: 5px;
+}
+

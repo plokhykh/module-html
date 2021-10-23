@@ -1,0 +1,33 @@
+.h500 {
+    height: 500px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.blockA {
+    background: coral;
+    flex-basis: 100%;
+    height: 100px;
+}
+
+.blockB {
+    background: burlywood;
+    flex-grow: 2;
+}
+
+.blockC {
+    background: bisque;
+    flex-grow: 1;
+}

@@ -1,0 +1,42 @@
+.d-flex {
+    display: flex;
+}
+
+.f-basis {
+    flex-basis: 100%;
+}
+
+.wrapper {
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.block {
+    align-items: center;
+    justify-content: center;
+    background: cornflowerblue;
+}
+
+.main {
+    height: 100px;
+}
+
+.post {
+    height: 150px;
+}
+
+.container {
+    column-gap: 5px;
+}
+
+.box-posts {
+    flex-grow: 8;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.menu {
+    flex-grow: 2;
+}
+
+
