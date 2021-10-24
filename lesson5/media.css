@@ -7,4 +7,8 @@
         display: block;
         margin-right: 20px;
     }
+
+    .additional-content__wrapper{
+        flex-wrap: wrap;
+    }
 }
