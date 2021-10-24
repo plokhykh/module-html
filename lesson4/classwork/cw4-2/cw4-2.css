@@ -88,19 +88,13 @@
     margin: 10px 0 20px 0;
 }
 
-/*.main-content button {*/
-/*    background: var(--blue);*/
-/*    width: 150px;*/
-/*    height: 40px;*/
-/*    border-radius: 20px;*/
-/*}*/
-
 
 /*main-products*/
 .main-products {
     background: var(--gray);
     color: var(--blue);
     display: flex;
+    justify-content: center;
 }
 
 .main-products__wrapper {
@@ -197,8 +191,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin: 0 100px;
 }
 
 .product__card {
