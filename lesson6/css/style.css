@@ -1,0 +1,257 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Tinos', serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.m35 {
+    margin-left: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    height: 100vh;
+    background: url("../image/bg.png") no-repeat center/cover;
+    color: #fff;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.header__top > img {
+    width: 100px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #fff;
+    column-gap: 30px;
+}
+
+.header__nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header__nav img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: space-around;
+    max-width: 154px;
+}
+
+.header__contacts > div {
+    display: flex;
+}
+
+.header__contacts img {
+    margin-right: 8px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    height: 48px;
+    color: #FFFFFF;
+    padding: 14px 18px;
+}
+
+.header__title {
+    margin-top: 80px;
+    color: #D67E35;
+    font-style: normal;
+    margin-left: 20px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 30px;
+}
+
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.header__title p::before {
+    margin-right: 10px;
+}
+
+.header__title p::after {
+    margin-left: 10px;
+}
+
+.button_box {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__advantages {
+    display: flex;
+    justify-content: center;
+    column-gap: 31px;
+}
+
+.header__advantages > div {
+    position: relative;
+    display: flex;
+    column-gap: 15px;
+    bottom: -80px;
+}
+
+.header__card {
+    background: #fff;
+    max-width: 280px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.header__card > div {
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.header__card img {
+    width: 97px;
+}
+
+.header__card h2 {
+    color: #2C2C2C;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.header__card p {
+    color: #656363;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.additional_color {
+    color: #BC9060;
+}
+
+.btn__menu {
+    display: none;
+    margin-right: 17px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.btn__menu > div {
+    background: #FF7400;
+    width: 31px;
+    height: 3px;
+}
+
+
+
