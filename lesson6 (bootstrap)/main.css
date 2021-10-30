@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.custom-btn{
+    background: #FF7400;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+.btn__menu {
+    display: none;
+    margin-right: 17px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.btn__menu > div {
+    background: #FF7400;
+    width: 31px;
+    height: 3px;
+}
+
+.header {
+    background: url("../lesson6/image/bg.png") no-repeat center/cover;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+.header__nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 23px;
+}
+
+.header__nav > img{
+    width: 20px;
+    margin: 0 21px;
+}
+
+.header__contacts  img{
+    height: 23px;
+}
+
+.header__contacts > div{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header__contacts > p {
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 154px;
+}
+
+.header__title > h2, .header__title > h1 {
+    color: #D67E35;
+}
+
+.header__title{
+    margin-top: 80px;
+}
+
+.header__title > h2{
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.header__title > h1{
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title > p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #C4C4C4;
+    margin: 0px 5px;
+}
+
+.card{
+    max-width: 350px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.card  img{
+    width: 97px;
+    border: none;
+}
+
+.card-title{
+    color: #2C2C2C;
+}
+
+.card-text{
+    color: #656363;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.additional_color {
+    color: #BC9060;
+}
+
+.header__advantages > div{
+    display: flex;
+    column-gap: 30px;
+    bottom: -20px;
+
+}
