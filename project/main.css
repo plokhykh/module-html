@@ -298,6 +298,9 @@ nav > a {
     line-height: 23px;
     margin: 8px 23px;
 }
+.product__sale{
+    position: relative;
+}
 
 .sale__item > div > p > s {
     color: var(--light-gray);
@@ -308,7 +311,10 @@ nav > a {
 
 .additional__menu {
     background: var(--white);
-    padding: 12px 28px 6px 28px;
+    padding: 12px 10px 6px 10px;
+    position: absolute;
+    left: -10px;
+    bottom: -80px;
 
 }
 
@@ -580,10 +586,6 @@ footer {
 .payment-system > img {
     width: 114px;
     margin-top: 8px;
-}
-
-.footer__last-section {
-    width: 450px;
 }
 
 .footer__feedback {
