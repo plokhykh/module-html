@@ -1,0 +1,291 @@
+@media screen and (max-width: 320px) {
+
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    .small-mob__version {
+        display: flex!important;
+    }
+
+    .btn-primary {
+        padding: 10px 7px;
+        font-size: 12px;
+    }
+
+    .btn-secondary {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .btn-secondary > img {
+        height: 12px;
+        margin-right: 4px;
+    }
+
+    .hide__small-mob {
+        display: none !important;
+    }
+
+    /*header*/
+    .small-mob__version > div > img {
+        margin-left: 4px;
+    }
+
+    .your__city {
+        margin-right: 15px;
+    }
+
+    .header__logo {
+        max-width: 170px;
+
+    }
+
+    .header__logo > img {
+        margin: 0;
+    }
+
+    .header__logo > div > p {
+        font-size: 8px;
+    }
+
+    .header__logo > div > h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .whats-app {
+        padding: 2px 4px;
+    }
+
+    .whats-app > img {
+        height: 10px;
+        margin: 0 2px 0 0;
+    }
+
+    .whats-app > p {
+        font-size: 8px;
+    }
+
+    .header__contact > h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .header__contact > p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 13px;
+    }
+
+    .header__btn {
+        height: 34px;
+    }
+
+    .header__btn > img {
+        margin: 0;
+    }
+
+    .form-inline > input {
+        height: 34px;
+        font-size: 12px;
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    .form-inline > button {
+        height: 34px;
+        padding: 11px;
+    }
+
+    /*main*/
+    .product__carousel {
+        flex-direction: column;
+    }
+
+    .carousel, .carousel-item {
+        max-height: 195px;
+        width: 300px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .product__sale{
+        position: relative;
+    }
+
+    .sale__item {
+        margin-left: 0;
+    }
+
+    .additional__menu{
+        position: absolute;
+        z-index: 1;
+        width: 320px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .product__filter {
+        margin-top: 30px;
+    }
+
+    .product__card {
+        max-width: 138px;
+    }
+
+    .card__img-wrapper > img {
+        height: 127px;
+        width: 149px;
+    }
+
+    .card__grade {
+        margin: 2px 0;
+        font-size: 12px;
+    }
+
+    .card__grade > img {
+        margin-right: 3px;
+        height: 12px;
+    }
+
+    .card__review {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+
+    .product__card h2 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .card__sale-price {
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+    }
+
+    .card__price {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .card__bottom > img {
+        margin: 0 0 0 10px;
+    }
+
+    /*news*/
+    .news {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .news__box {
+        flex-direction: column;
+    }
+
+    .news__card {
+        justify-content: start;
+    }
+
+    .card__img-box {
+        margin-bottom: 5px;
+    }
+
+    .news__card > p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .news__card ul {
+        font-size: 12px;
+    }
+
+    .news__box {
+        margin-bottom: 70px;
+    }
+
+    /*footer*/
+    .footer__box {
+        flex-direction: column;
+    }
+
+    .footer__last-section > div {
+        flex-direction: column;
+    }
+
+    .category__title {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .category_link {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0 0 10px 0;
+    }
+
+    .none-m {
+        margin: 0;
+    }
+
+    .payment-system {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .payment-system > img {
+        width: 89px;
+        margin: 8px 0 10px 0;
+    }
+
+    .footer__feedback {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer__feedback > p > span {
+        display: block;
+        margin: 0;
+    }
+
+    .feedback_form > p {
+        max-width: 267px;
+        margin-bottom: 8px;
+    }
+
+    .form__subscription > input {
+        height: 34px;
+        border-radius: 6px 0 0 6px;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 10px 10px;
+        width: 190px;
+    }
+
+    .form__subscription > button {
+        padding: 8px 13px 10px 13px;
+        border-radius: 0 6px 6px 0;
+        position: relative;
+        left: -5px;
+    }
+
+    .footer__social-box {
+        display: flex;
+        align-items: start;
+    }
+
+    .footer__social {
+        margin: 28px 0 0 0;
+        padding: 0;
+    }
+
+    footer > h3 {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0 0 15px 10px;
+    }
+
+}
